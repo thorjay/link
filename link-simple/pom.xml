@@ -26,12 +26,6 @@
         </dependency>
         <dependency>
             <groupId>com.rj</groupId>
-            <artifactId>link-websocket</artifactId>
-            <version>${link.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.rj</groupId>
             <artifactId>link-stomp</artifactId>
             <version>${link.version}</version>
             <scope>compile</scope>

@@ -8,13 +8,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>hello</module>
-        <module>hello-client</module>
-        <module>JavaIO</module>
-        <module>Action0</module>
-        <module>link-websocket</module>
-        <module>link-mqtt</module>
-        <module>link-jt808</module>
         <module>link-server</module>
         <module>link-simple</module>
         <module>link-stomp</module>
