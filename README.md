@@ -1,5 +1,8 @@
 # link
-link是一个基于netty，websocket+stomp协议构建的端到端的消息通信，消息订阅工具及SDK;
+link是一个基于stomp实现消息数据通讯的项目。
+link-stomp是一个基于netty，websocket+stomp协议构建的端到端的消息通信，消息订阅工具及SDK;
+link-server是一个对netty_server的管理Module。
+link-simple是一个基于link-stomp和link-server的开发的demo。
 
 ## 介绍
 借助于link，可以轻松实现聊天、订阅发布、消息指令等等实时功能。
@@ -18,6 +21,18 @@ link是一个基于netty，websocket+stomp协议构建的端到端的消息通�
 启动类：module:link-simple中配置stomp的端口，main函数中启动。
 ![starter](./img/starter.png)
 
+## 功能模块
+分为服务端和客户端。
+其中服务端Link-Server负责网络通信的功能。客户端Link-Clients与服务建立连接后，就可以相互实现通信。
+![link-module](./img/link_module.png)
+
+## 节点
+![img.png](./img/node.png)
+
+## SDK解析
+
+![img.png](./img/stompsdk类解析1.png)
+
 ## 功能
 
 * [x] 1.连接
@@ -32,3 +47,6 @@ link是一个基于netty，websocket+stomp协议构建的端到端的消息通�
 ## 相关
 * Netty
 * [Stomp](https://ignorantshr.github.io/person-blog/%E5%85%B6%E5%AE%83/Stomp%E5%8D%8F%E8%AE%AE/)
+
+## pipeline
+![pipeline](./img/pipeline.png)
