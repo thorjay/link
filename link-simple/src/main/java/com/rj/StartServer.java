@@ -6,6 +6,10 @@ import org.slf4j.Logger;
 public class StartServer {
     private static final Logger logger = org.slf4j.LoggerFactory.getLogger(StartServer.class);
 
+    /**
+     * @param args
+     * 配置 -Dwebsocket.port=8085 -Dstomp.port=8083
+     */
     public static void main(String[] args) {
 
         try {
