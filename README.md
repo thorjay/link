@@ -1,8 +1,8 @@
 # link
-link是一个基于stomp实现消息数据通讯的项目。
-link-stomp是一个基于netty，websocket+stomp协议构建的端到端的消息通信，消息订阅工具及SDK;
-link-server是一个对netty_server的管理Module。
-link-simple是一个基于link-stomp和link-server的开发的demo。
+* link是一个基于stomp实现消息数据通讯的项目。
+* link-stomp是一个基于netty，websocket+stomp协议构建的端到端的消息通信，消息订阅工具及SDK;
+* link-server是一个对netty_server的管理Module。
+* link-simple是一个基于link-stomp和link-server的开发的demo。
 
 ## 介绍
 借助于link，可以轻松实现聊天、订阅发布、消息指令等等实时功能。
